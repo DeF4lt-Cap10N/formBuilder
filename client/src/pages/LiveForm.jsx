@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import QuestionFiller from '../components/QuestionFiller';
 
-const API_BASE_URL = 'http://localhost:5000/api/forms';
+const API_BASE_URL = 'https://formbuilder-hs9k.onrender.com/api/forms';
 
 const LiveForm = ({ formId, setCurrentPage }) => {
   const [form, setForm] = useState(null);

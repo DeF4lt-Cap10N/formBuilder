@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import QuestionEditor from '../components/QuestionEditor';
 
-const API_BASE_URL = 'http://localhost:5000/api/forms';
+const API_BASE_URL = 'https://formbuilder-hs9k.onrender.com/api/forms';
 
 const FormBuilder = ({ formId, setCurrentPage }) => {
   const [formTitle, setFormTitle] = useState('');

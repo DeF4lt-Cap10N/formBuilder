@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000/api/forms';
+const API_BASE_URL = 'https://formbuilder-hs9k.onrender.com/api/forms';
 
 const Home = ({ setCurrentPage, setFormId }) => {
   const [forms, setForms] = useState([]);
